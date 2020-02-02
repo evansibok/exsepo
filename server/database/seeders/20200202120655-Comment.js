@@ -14,8 +14,7 @@ module.exports = {
         {
           userId: 2,
           postId: 1,
-          comment:
-            "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+          comment: "Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
           createdAt: new Date(),
           updatedAt: new Date(),
         },
