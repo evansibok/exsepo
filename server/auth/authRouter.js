@@ -1,8 +1,8 @@
 const router = require('express').Router();
 
-const getAllUsers = require('./getAllUsers');
 const validateUser = require('../middlewares/validateUser');
+const registerUser = require('./registerUser');
 
-router.get('/', getAllUsers);
+router.post('/register', validateUser, registerUser);
 
 module.exports = router;
