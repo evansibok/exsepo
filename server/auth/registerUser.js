@@ -1,7 +1,7 @@
 
 const models = require('../database/models');
 
-function createUser(req, res) {
+function registerUser(req, res) {
   const user = req.body;
 
   models.User.create(user)
@@ -16,4 +16,4 @@ function createUser(req, res) {
     })
 }
 
-module.exports = createUser;
+module.exports = registerUser;
